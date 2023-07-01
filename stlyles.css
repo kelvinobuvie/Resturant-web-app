@@ -36,6 +36,15 @@ header{
     padding: 10px 10%;
     transition: 0.2s linear;
 }
+header.active{
+    background: var(--secondary-color);
+    box-shadow: 0 0 4px rgb(14, 55, 54 / 15);
+}header.active .logo{
+    color: #fff;
+}
+header.active .navbar a{
+    color: #fff;
+}
 .logo{
     display: flex;
     align-items: center;
